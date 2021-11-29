@@ -1,6 +1,6 @@
 {
-    "name": "o2ti/theme-full-checkout",
-    "description": "Theme For Full Checkout",
+    "name": "o2ti/advanced-fields-checkout",
+    "description": "Add advanced properties to checkout fields",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -12,8 +12,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "hybridauth/hybridauth" : "^3.2",
+        "php": ">=7.3",
         "magento/framework": "103.0.*",
         "magento/module-customer": ">=103.0.0",
         "magento/module-config": "101.2.*",
@@ -31,8 +30,15 @@
             "registration.php"
         ],
         "psr-4": {
-            "O2TI\\ThemeFullCheckout\\": ""
+            "O2TI\\AdvancedFieldsCheckout\\": ""
         }
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "*"
+    },
+    "scripts": {
+        "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths ../../..,../../phpcompatibility/php-compatibility/PHPCompatibility",
+        "post-update-cmd": "vendor/bin/phpcs --config-set installed_paths ../../..,../../phpcompatibility/php-compatibility/PHPCompatibility"
     },
     "repositories": [
         {
@@ -40,5 +46,6 @@
             "url": "https://repo.magento.com/"
         }
     ],
+    "prefer-stable": true,
     "minimum-stability": "dev"
 }
