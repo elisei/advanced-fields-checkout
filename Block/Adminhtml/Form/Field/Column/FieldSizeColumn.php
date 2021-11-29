@@ -17,15 +17,15 @@ use Magento\Framework\View\Element\Html\Select;
  */
 class FieldSizeColumn extends Select
 {
-    protected const A_HUNDRED_PERCENT = 'a-hundred-percent';
+    public const A_HUNDRED_PERCENT = 'a-hundred-percent';
 
-    protected const SIXTY_PERCENT = 'sixty-percent';
+    public const SIXTY_PERCENT = 'sixty-percent';
 
-    protected const FIFTY_PERCENT = 'fifty-percent';
+    public const FIFTY_PERCENT = 'fifty-percent';
 
-    protected const THIRTY_THREE_PERCENT = 'thirty-three-percent';
+    public const THIRTY_THREE_PERCENT = 'thirty-three-percent';
 
-    protected const TWENTY_PERCENT = 'twenty-percent';
+    public const TWENTY_PERCENT = 'twenty-percent';
 
     /**
      * Set "name" for <select> element.

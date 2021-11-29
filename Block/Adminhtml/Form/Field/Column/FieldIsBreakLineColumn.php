@@ -20,12 +20,12 @@ class FieldIsBreakLineColumn extends Select
     /**
      * Value which equal Enable for Enabledisable dropdown.
      */
-    protected const ENABLE_VALUE = 1;
+    public const ENABLE_VALUE = 1;
 
     /**
      * Value which equal Disable for Enabledisable dropdown.
      */
-    protected const DISABLE_VALUE = 0;
+    public const DISABLE_VALUE = 0;
 
     /**
      * Set "name" for <select> element.

@@ -19,13 +19,13 @@ use Magento\Store\Model\StoreManagerInterface;
  */
 class Config extends AbstractHelper
 {
-    protected const CONFIG_PATH_GENERAL = 'advanced_fields_checkout/general/%s';
+    public const CONFIG_PATH_GENERAL = 'advanced_fields_checkout/general/%s';
 
-    protected const CONFIG_PATH_CLASSES = 'advanced_fields_checkout/general/columns/classes';
+    public const CONFIG_PATH_CLASSES = 'advanced_fields_checkout/general/columns/classes';
 
-    protected const CONFIG_PATH_AUTOCOMPLETE = 'advanced_fields_checkout/general/autocomplete/autocomplete';
+    public const CONFIG_PATH_AUTOCOMPLETE = 'advanced_fields_checkout/general/autocomplete/autocomplete';
 
-    protected const CONFIG_PATH_PLACEHOLDER = 'advanced_fields_checkout/general/placeholder/placeholder';
+    public const CONFIG_PATH_PLACEHOLDER = 'advanced_fields_checkout/general/placeholder/placeholder';
 
     /**
      * @var Json
