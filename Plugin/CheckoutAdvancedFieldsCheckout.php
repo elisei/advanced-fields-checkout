@@ -9,7 +9,6 @@
 namespace O2TI\AdvancedFieldsCheckout\Plugin;
 
 use Magento\Checkout\Block\Checkout\LayoutProcessor;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 use O2TI\AdvancedFieldsCheckout\Helper\Config;
 
 /**
@@ -28,14 +27,11 @@ class CheckoutAdvancedFieldsCheckout
     protected $storeManagerInterface;
 
     /**
-     * @param ScopeConfigInterface  $scopeConfig
-     * @param Config                $config
+     * @param Config               $config
      */
     public function __construct(
-        ScopeConfigInterface $scopeConfig,
         Config $config
     ) {
-        $this->scopeConfig = $scopeConfig;
         $this->config = $config;
     }
 
@@ -285,7 +281,6 @@ class CheckoutAdvancedFieldsCheckout
     public function setPlaceholderFields(array $fields): array
     {
         foreach ($fields as $key => $data) {
-            $oldClass = null;
             if (in_array('label', $fields[$key])) {
                 if ($fields[$key]['label']) {
                     $placeholder = $this->config->getPlaceholderForField($key);
