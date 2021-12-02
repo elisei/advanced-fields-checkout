@@ -74,7 +74,7 @@ class FieldSizeColumn extends Select
     {
         return [
             ['value' => self::A_HUNDRED_PERCENT, 'label' => '100%'],
-            ['value' => self::SIXTY_PERCENT, 'label' => '70%'],
+            ['value' => self::SIXTY_PERCENT, 'label' => '60%'],
             ['value' => self::FIFTY_PERCENT, 'label' => '50%'],
             ['value' => self::THIRTY_THREE_PERCENT, 'label' => '33%'],
             ['value' => self::TWENTY_PERCENT, 'label' => '20%'],
