@@ -22,12 +22,7 @@ class CheckoutAdvancedFieldsCheckout
     protected $config;
 
     /**
-     * @var StoreManagerInterface
-     */
-    protected $storeManagerInterface;
-
-    /**
-     * @param Config               $config
+     * @param Config $config
      */
     public function __construct(
         Config $config
