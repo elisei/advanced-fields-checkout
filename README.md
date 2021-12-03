@@ -8,7 +8,7 @@ Status Atual
 
 [![Build Status](https://app.travis-ci.com/elisei/advanced-fields-checkout.svg?branch=Magento%402.3)](https://app.travis-ci.com/elisei/advanced-fields-checkout)
 [![StyleCI](https://github.styleci.io/repos/432317205/shield?branch=Magento@2.3)](https://github.styleci.io/repos/432317205?branch=Magento@2.3)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/elisei/advanced-fields-checkout/badges/quality-score.png?b=Magento%402.4)](https://scrutinizer-ci.com/g/elisei/advanced-fields-checkout/)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/elisei/advanced-fields-checkout/badges/quality-score.png?b=Magento%402.3)](https://scrutinizer-ci.com/g/elisei/advanced-fields-checkout/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/939d6dc3ac134fb384b67075bda95022)](https://www.codacy.com/gh/elisei/advanced-fields-checkout/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=elisei/advanced-fields-checkout&amp;utm_campaign=Badge_Grade)
 
 
