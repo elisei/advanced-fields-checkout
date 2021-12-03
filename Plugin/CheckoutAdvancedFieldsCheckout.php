@@ -40,10 +40,10 @@ class CheckoutAdvancedFieldsCheckout
     protected $placeholder;
 
     /**
-     * @param Config            $config
-     * @param AddtionalClasses  $addtionalClasses
-     * @param Autocomplete      $autocomplete
-     * @param Placeholder       $placeholder
+     * @param Config           $config
+     * @param AddtionalClasses $addtionalClasses
+     * @param Autocomplete     $autocomplete
+     * @param Placeholder      $placeholder
      */
     public function __construct(
         Config $config,
