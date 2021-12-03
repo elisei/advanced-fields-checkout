@@ -182,7 +182,6 @@ class CheckoutAdvancedFieldsCheckout
             $jsLayout = $this->changeCreateAccount($jsLayout);
             $jsLayout = $this->changeShippingFields($jsLayout);
             $jsLayout = $this->changeBillingFields($jsLayout);
-            $layoutProcessor = $layoutProcessor;
         }
 
         return $jsLayout;
