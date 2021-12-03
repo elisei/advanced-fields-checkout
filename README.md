@@ -8,6 +8,7 @@ Status Atual
 
 [![Build Status](https://app.travis-ci.com/elisei/advanced-street-address.svg?branch=Magento%402.3)](https://app.travis-ci.com/elisei/advanced-street-address)
 [![StyleCI](https://github.styleci.io/repos/432317205/shield?branch=Magento@2.3)](https://github.styleci.io/repos/432317205?branch=Magento@2.3)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/elisei/advanced-street-address/badges/quality-score.png?b=Magento%402.4)](https://scrutinizer-ci.com/g/elisei/advanced-street-address/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/939d6dc3ac134fb384b67075bda95022)](https://www.codacy.com/gh/elisei/advanced-street-address/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=elisei/advanced-street-address&amp;utm_campaign=Badge_Grade)
 
 
@@ -47,7 +48,7 @@ Defina uma orientação adcional para o preenchimento da informação que é esp
 
 ## Instalação e Configuração
 
-Visite nossa [Wiki][wiki] e veja como configurar e instalar nosso módulo.
+Visite nossa [Wiki](wiki) e veja como configurar e instalar nosso módulo.
 
 ## License
 
