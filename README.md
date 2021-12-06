@@ -48,7 +48,7 @@ Defina uma orientação adcional para o preenchimento da informação que é esp
 
 ## Instalação e Configuração
 
-Visite nossa [Wiki](wiki) e veja como configurar e instalar nosso módulo.
+Visite nossa [Wiki](https://github.com/elisei/advanced-fields-checkout/wiki) e veja como configurar e instalar nosso módulo.
 
 ## License
 
